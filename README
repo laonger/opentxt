@@ -1,0 +1,3 @@
+OpenTXT 由la.onger <yuelang85@gmail.com>所写，用于自动判断txt文档编码并用TextEdit.app打开。
+
+version 0.1 支持gb2312，GB18030，UTF-8
