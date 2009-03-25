@@ -12,6 +12,7 @@ encodings={'GB2312':'-2147482062', 'utf-8':'4', 'HZ-GB-2312':'-2147481083',\
 
 file = open(sys.argv[1],'r')
 str = string.join(file.readlines())
+file.close()
 str_encoding = chardet.detect(str)['encoding']
 if str_encoding == None:
 	str_encoding = 'None'

@@ -9,7 +9,8 @@ from setuptools import setup
 
 APP = ['./OpenTXT.py']
 DATA_FILES = []
-OPTIONS = {'argv_emulation': True}
+OPTIONS = {'argv_emulation': True,'includes':'chardet.*',\
+			}
 
 setup(
     app=APP,
