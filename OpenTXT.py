@@ -8,7 +8,7 @@ encodings={'GB2312':'-2147482062', 'utf-8':'4', 'HZ-GB-2312':'-2147481083',\
 		'Big5':'-2147483646', 'IBM855':'-2147480575', 'ascii':'1', 'UTF-16BE':'10',\
 		'NONE':'-1744830208'}
 
-if not sys.argv[1]:
+if len(sys.argv) == 1:
 	os.popen('''/Applications/TextEdit.app/Contents/MacOS/TextEdit''')
 else:
 	file = open(sys.argv[1],'r')
